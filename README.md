@@ -7,7 +7,7 @@
 - `model.py` is used to train a LSTM model on the prepared data
   - model is saved to a checkpoint every 5 epochs
   - model history is saved to trainHistoryDict
-- `Evaluate_and_convert.ipynb` is used to load model history and visualize/benchmark the performance
+- `Evaluate_models.ipynb` is used to load model history and visualize/benchmark the performance
   - bella_model.h5 is saved after the training is complete
-  - bella_model.tflite is then created with a signature specified to enable use in the tflite runtime
+  - pruned_and_quantized.tflite is then created with a signature specified to enable use in the tflite runtime
 - `Test_tflite.py` can then be run on a raspberry pi to perform gesture classification
