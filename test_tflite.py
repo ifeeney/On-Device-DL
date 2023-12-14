@@ -13,18 +13,18 @@ def load_val():
 X_test, y_test = load_val()
 
 # Run the model with TensorFlow to get expected results.
-TEST_CASES = 100
+TEST_CASES = 1000
 true_count = 0
 
 # Run the model with TensorFlow Lite
-interpreter = tflite.Interpreter('Downloads/bellas_model.tflite')
+interpreter = tflite.Interpreter('Downloads/bellas_model5q.tflite')
 interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
 
 for i in range(TEST_CASES):
   #print("Begin")
-  #print(X_test[i:i+1])
+  print((X_test[i:i+1]).shape)
   #print(input_details)
   interpreter.set_tensor(input_details[0]["index"], np.float32(X_test[i:i+1]))
   interpreter.invoke()
