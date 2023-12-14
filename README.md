@@ -22,5 +22,6 @@ Performing real-time gesture classification, using the file 'Test_gesture.py':
 https://github.com/ifeeney/On-Device-DL/assets/42654829/8b85f7e6-3592-4890-ae0d-b209075000f4
 
 ## Authorship
-Shivam Sharma: training.py`, inference.py`
-Isabella Feeney: 'test_gesture.py`, `Evaluate_models.ipynb`
+Shivam Sharma: `training.py`, `inference.py`
+
+Isabella Feeney: `test_gesture.py`, `Evaluate_models.ipynb`
