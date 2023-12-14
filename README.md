@@ -1,6 +1,12 @@
 # On-Device-Deep Learning
 
-## Files used: Preparatory 
+## Requirements:
+- Tensorflow 2.4
+- Mediapipe Version
+
+## Files used: 
+
+### Preparatory 
 - `test_gesture.py` is used to gather landmark coordinates for sequences of images using Mediapipe Hand Landmarker
   - see https://developers.google.com/mediapipe/solutions/vision/hand_landmarker for more details
 - `prepare_data.py` is used to convert the jester dataset image sequences into landmarks returned in test_gesture.py
@@ -11,7 +17,7 @@
   - bella_model.h5 is saved after the training is complete
   - pruned_and_quantized.tflite is then created with a signature specified to enable use in the tflite runtime
   - 
-## Files used: On-Device
+### On-Device
 - `test_tflite.py` is used to test the accuracy of the tensorflow lite model on Jester test data
 - `single_gesture_classifier.py` is used to collect a 3 single second gesture and then perform classification
 - `real_time_classifier.py` is used to perform continuous gesture classification in real-time
