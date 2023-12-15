@@ -1,9 +1,5 @@
 # On-Device-Deep Learning
 
-## Requirements:
-- Tensorflow 2.4
-- Mediapipe Version
-
 ## Files used: 
 
 ### Initial Training
