@@ -33,6 +33,8 @@ https://github.com/ifeeney/On-Device-DL/assets/42654829/86a2c5c6-f2be-4969-9f64-
 
 Performing real-time gesture classification, using the file 'Test_gesture.py':
 
+https://github.com/ifeeney/On-Device-DL/assets/42654829/d22b8909-e587-4798-b10d-c730735ed4ac
+
 https://github.com/ifeeney/On-Device-DL/assets/42654829/8b85f7e6-3592-4890-ae0d-b209075000f4
 
 ## Authorship
