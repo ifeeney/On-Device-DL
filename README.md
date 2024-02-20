@@ -21,6 +21,12 @@
 - `test_tflite.py` is used to test the accuracy of the tensorflow lite model on Jester test data
 - `single_gesture_classifier.py` is used to collect a 3 single second gesture and then perform classification
 - `real_time_classifier.py` is used to perform continuous gesture classification in real-time
+## Performance(Inference.py) after initial training using trainer.py
+![Stop SIgn](/Media/Shivam_stop_sign.png)
+![Thumbs up](Media/Shivam_thumbs_up.png)
+![Video](Media/Shivam_Hand_gesture_recognition-ezgif.com-video-to-gif-converter.gif)
+
+
 
 ## Demo Videos
 Performing asynchronous gesture classification, using the file 'Test_tflite.py':
