@@ -3,8 +3,8 @@
 ## Files used: 
 
 ### Initial Training
-- `training.py` was used to train our model initially
-- `inference.py` was used to test the the model
+- `trainer.py` was used to train our model initially
+- `inference.py` was used to test the model
 - 
 ### Revised Training 
 - `test_gesture.py` is used to gather landmark coordinates for sequences of images using Mediapipe Hand Landmarker
@@ -34,6 +34,6 @@ https://github.com/ifeeney/On-Device-DL/assets/42654829/d22b8909-e587-4798-b10d-
 https://github.com/ifeeney/On-Device-DL/assets/42654829/8b85f7e6-3592-4890-ae0d-b209075000f4
 
 ## Authorship
-Shivam Sharma: `training.py`, `inference.py`
+Shivam Sharma: `trainer.py`, `inference.py`
 
 Isabella Feeney: `test_gesture.py`, `prepare_data.py`, `model.py`, `Evaluate_models.ipynb`, `test_tflite.py`, `single_gesture_classifier.py`, `real_time_classifier.py`
