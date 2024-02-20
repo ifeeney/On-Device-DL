@@ -91,11 +91,11 @@ class Trainer:
     def train(train_csv, val_csv, actions, train_num_samples, val_num_samples, batch_size=32, epochs=10):
         # For training data
         train_gen = data_generator(train_csv, batch_size, base_dir=os.path.expanduser(
-            '/media/bella/bellssd/jester/Train'), fit_label_encoder=True)
+            '~/Downloads/archive/Train'), fit_label_encoder=True)
 
         # For validation data
         val_gen = data_generator(val_csv, batch_size, base_dir=os.path.expanduser(
-            '/media/bella/bellssd/jester/Validation'), fit_label_encoder=False)
+            '~/Downloads/archive/Validation'), fit_label_encoder=False)
 
         num_classes = len(actions)
         steps_per_epoch = math.ceil(train_num_samples / batch_size)
@@ -158,8 +158,8 @@ def get_unique_actions_and_length(csv_file):
 
 
 if __name__ == "__main__":
-    train_csv = '/media/bella/bellssd/jester/Train.csv'
-    val_csv = '/media/bella/bellssd/jester/Validation.csv'
+    train_csv = '/home/shivam/Downloads/archive/Train.csv'
+    val_csv = '/home/shivam/Downloads/archive/Validation.csv'
     actions, train_num_samples = get_unique_actions_and_length(train_csv)
     _, val_num_samples = get_unique_actions_and_length(val_csv)
     checkpoint_path = 'action_model_checkpoint.h5'
